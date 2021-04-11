@@ -67,5 +67,6 @@ public class AndroidSplash extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         timer.cancel();
+        //修改
     }
 }
